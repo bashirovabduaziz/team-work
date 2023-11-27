@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: var(--white-97, #F7F7F8);
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0, 16px;
+    font-family: sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700;800&family=Mulish:wght@300;400;500;600;700;800;900;1000&family=Rubik:wght@400;500&display=swap');
+.hero{
+    padding-top: 150px;
+}
+.hero-title{
+    color: var(--grey-20, #333);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.hero-subtitle{
+    flex: 1 0 0;
+    color: var(--grey-35, #59595A);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 10px;
+}
+.hero-cards{
+    padding-top: 80px;
+}
+.card-hero{
+    display: flex;
+    margin-top: 50px;
+}
+.hero-card{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    width: 630px;
+    margin-right: 30px;
+}
+.card-title {
+    color: var(--grey-15, #262626);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    background: fixed;
+}
+
+.card-subtitle {
+    color: var(--grey-35, #59595A);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    background: fixed;
+}
